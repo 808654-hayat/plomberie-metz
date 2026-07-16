@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plomberie Metz| Dépannage rapide et fiable</title>
+    <meta
+      name="description"
+      content="Plombier professionnel pour les urgences, installations et réparations. Intervention rapide à domicile."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="background-orb orb-one"></div>
+      <div class="background-orb orb-two"></div>
+      <nav class="navbar">
+        <a class="brand" href="#">Plomberie-Metz</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+
+      <div class="hero-content">
+        <div>
+          <p class="eyebrow">Plombier à votre service</p>
+          <h1>Intervention rapide pour tous vos soucis de plomberie.</h1>
+          <p class="hero-text">
+            Dépannage, rénovation et maintenance : nous intervenons rapidement
+            pour remettre votre habitation en ordre avec professionnalisme.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="tel:+33759986174">Appelez maintenant</a>
+            <a class="btn btn-secondary" href="#services">Nos services</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h2>Urgence ?</h2>
+          <p>Disponible pour les interventions rapides en journée comme en soirée.</p>
+          <ul>
+            <li>Fuite d’eau</li>
+            <li>Chauffe-eau</li>
+            <li>Remplacement de robinet</li>
+            <li>Canalisation</li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="services" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Nos services</p>
+          <h2>Des solutions fiables pour votre maison ou votre entreprise</h2>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <img src="images/depannage_plomberie.jpg" alt="Illustration d'un dépannage plomberie" />
+            <h3>Dépannage rapide</h3>
+            <p>Fuites, bouchons, dysfonctionnements : intervention immédiate.</p>
+          </article>
+          <article class="card">
+            <img src="images/illustration_installation_plomberie-1024x559.png" alt="Illustration d'installation de plomberie" />
+            <h3>Installation</h3>
+            <p>Pose de robinetterie, douche, WC, lavabos et équipements sanitaires.</p>
+          </article>
+          <article class="card">
+            <img src="images/entretien-plomberie_large.jpg" alt="Illustration d'entretien de plomberie" />
+            <h3>Entretien</h3>
+            <p>Contrôle régulier pour éviter les pannes et prolonger la durée de vie de vos installations.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="section-heading">
+          <p class="eyebrow">Pourquoi nous choisir ?</p>
+          <h2>Un service sérieux, soigné et transparent</h2>
+        </div>
+        <div class="features">
+          <div>
+            <h3>✅ Réactivité</h3>
+            <p>Nous privilégions une intervention rapide pour limiter les dégâts.</p>
+          </div>
+          <div>
+            <h3>✅ Professionnalisme</h3>
+            <p>Des travaux réalisés avec soin, proprement et dans les règles.</p>
+          </div>
+          <div>
+            <h3>✅ Prix clairs</h3>
+            <p>Un diagnostic honnête et des tarifs transparents avant chaque intervention.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>Prêt à nous contacter ?</h2>
+        </div>
+        <div class="contact-box">
+          <div class="contact-info-card">
+            <div class="contact-info-top">Nos coordonnées</div>
+            <h3>Plomberie-Metz</h3>
+            <p>57000 Metz</p>
+            <p>Tel : 0759986174</p>
+            <p>Email : contact@plomberie-metz.com</p>
+          </div>
+          <form class="contact-form">
+            <label>
+              Nom
+              <input type="text" name="name" placeholder="Votre nom" required />
+            </label>
+            <label>
+              Téléphone
+              <input type="tel" name="phone" placeholder="Votre téléphone" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="4" placeholder="Décrivez votre besoin" required></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Envoyer</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Plomberie-Metz.</p>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

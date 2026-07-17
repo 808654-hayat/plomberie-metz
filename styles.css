@@ -21,6 +21,7 @@ body {
   overflow-x: hidden;
 }
 
+
 img {
   max-width: 100%;
 }
@@ -32,6 +33,7 @@ img {
   color: white;
   overflow: hidden;
 }
+
 
 .background-orb {
   position: absolute;
@@ -57,6 +59,7 @@ img {
   left: -20px;
   animation-duration: 12s;
 }
+
 
 @keyframes float {
   from {
@@ -100,7 +103,7 @@ img {
 .eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 700;
   color: #1d88cf;
   margin-bottom: 8px;
@@ -144,7 +147,7 @@ h1 {
   color: white;
 }
 
-.btn-primary:hover {
+.btn-primary:hover, .btn-secondary:hover {
   background: var(--primary-dark);
 }
 
@@ -153,6 +156,7 @@ h1 {
   color: white;
   border: 1px solid rgba(255, 255, 255, 0.4);
 }
+
 
 .hero-card {
   background: rgba(255, 255, 255, 0.12);

@@ -370,5 +370,17 @@ h1 {
 }
 
 
+#plombier {
+  background: rgba(255, 255, 255, 0.12);
+  padding: 15px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  margin-right: 200px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+
 
 

@@ -27,8 +27,8 @@
 
       <div class="hero-content">
         <div>
-          <p class="eyebrow">Plombier à votre service</p>
-          <h1>Intervention rapide pour tous vos soucis de plomberie.</h1>
+          <p class="eyebrow" id="plombier" >Plombier à votre service</p>
+          <h1>Intervention rapide pour tous vossoucis de plomberie.</h1>
           <p class="hero-text">
             Dépannage, rénovation et maintenance : nous intervenons rapidement
             pour remettre votre habitation en ordre avec professionnalisme.
@@ -135,6 +135,16 @@
 
     <script>
       document.getElementById('year').textContent = new Date().getFullYear();
+
+      const plombierElement = document.getElementById('plombier');
+   
+      setInterval(() => {
+          if (plombierElement.style.color === "white") {
+              plombierElement.style.color = "blue";
+              } else {
+              plombierElement.style.color = "white";
+              }
+      }, 1000);
     </script>
   </body>
 </html>

@@ -32,7 +32,36 @@ img {
   background: linear-gradient(120deg, #0f1e33 0%, #214a7a 100%);
   color: white;
   overflow: hidden;
+  
 }
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background:
+        linear-gradient(
+            rgba(25, 60, 110, 0.65),
+            rgba(25, 60, 110, 0.65)
+        ),
+        url("images/plumbing-design-and-repiping.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    z-index: 0;
+    filter: blur(2px);
+}
+
+.navbar,
+.hero-content,
+.background-orb {
+    position: relative;
+    z-index: 1;
+}
+
 
 
 .background-orb {
@@ -58,6 +87,7 @@ img {
   bottom: -60px;
   left: -20px;
   animation-duration: 12s;
+  
 }
 
 
@@ -338,3 +368,7 @@ h1 {
     grid-template-columns: 1fr;
   }
 }
+
+
+
+

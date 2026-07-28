@@ -83,6 +83,11 @@ This website is deployed using GitHub Pages with a custom domain.
 
 This project is intended for commercial use by its owner.
 
+
+## 📷 Website Preview
+
+<img src="images/mh website preview.png" width="300" alt="Plomberie Metz homepage">
+
 ## 👨‍💻 Author
 
 Developed by **Hayat Bek**

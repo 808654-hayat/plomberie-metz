@@ -28,11 +28,11 @@ Plomberie-Metz/
 │
 ├── images/
 ├── index.html
-├── style.css
+├── readme.md
+├── robots.txt
 ├── script.js
 ├── sitemap.xml
-├── robots.txt
-└── README.md
+└── style.css
 ```
 
 ## 📱 Responsive Design

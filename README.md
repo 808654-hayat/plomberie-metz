@@ -26,8 +26,8 @@ This website was created to promote professional plumbing services in Metz, Fran
 ```
 Plomberie-Metz/
 │
+├── images/
 ├── index.html
-├── style.css
 ├── style.css
 ├── script.js
 ├── sitemap.xml

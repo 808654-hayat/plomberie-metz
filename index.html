@@ -134,18 +134,6 @@
       <p>© <span id="year"></span> Plomberie-Metz.</p>
     </footer>
 
-    <script>
-      document.getElementById('year').textContent = new Date().getFullYear();
-
-      const plombierElement = document.getElementById('plombier');
-   
-      setInterval(() => {
-          if (plombierElement.style.color === "white") {
-              plombierElement.style.color = "blue";
-              } else {
-              plombierElement.style.color = "white";
-              }
-      }, 1000);
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
